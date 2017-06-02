@@ -17,9 +17,9 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-       <activity android:name=".FrameActivity"/>
+        <activity android:name=".FrameActivity"/>
         <activity android:name=".TweenActivity"/>
-
+        <activity android:name=".LayoutAnimActivity"/>
     </application>
 
 </manifest>

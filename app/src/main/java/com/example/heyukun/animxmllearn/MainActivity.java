@@ -23,6 +23,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this,TweenActivity.class));
             }
         });
+        findViewById(R.id.btn_la).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,LayoutAnimActivity.class));
+            }
+        });
         findViewById(R.id.button_pro).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

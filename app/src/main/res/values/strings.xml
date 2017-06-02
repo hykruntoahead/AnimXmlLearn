@@ -12,6 +12,7 @@
     <string name="view_translate">平移</string>
     <string name="view_rotate">旋转</string>
     <string name="view_set">组合</string>
+    <string name="anim_layout">布局动画（View动画）</string>
 
 
 </resources>
