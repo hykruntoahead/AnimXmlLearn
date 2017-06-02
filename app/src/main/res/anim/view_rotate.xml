@@ -7,5 +7,5 @@
     android:interpolator="@android:anim/anticipate_overshoot_interpolator"
     android:pivotX="100%"
     android:pivotY="0%"
-    android:toDegrees="300"
+    android:toDegrees="360"
     />

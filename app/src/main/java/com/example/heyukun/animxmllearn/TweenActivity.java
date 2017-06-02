@@ -50,6 +50,8 @@ public class TweenActivity extends AppCompatActivity implements View.OnClickList
                 imageView.startAnimation(animation3);
                 break;
             case R.id.btn_set:
+                Animation animation4 = AnimationUtils.loadAnimation(this,R.anim.view_set);
+                imageView.startAnimation(animation4);
                 break;
             default:
                 break;
