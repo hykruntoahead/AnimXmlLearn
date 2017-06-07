@@ -25,7 +25,7 @@ public class TweenActivity extends AppCompatActivity implements View.OnClickList
         findViewById(R.id.btn_alpha).setOnClickListener(this);
         findViewById(R.id.btn_scale).setOnClickListener(this);
         findViewById(R.id.btn_translate).setOnClickListener(this);
-        findViewById(R.id.btn_rotate).setOnClickListener(this);
+        findViewById(R.id.btn_obj).setOnClickListener(this);
         findViewById(R.id.btn_set).setOnClickListener(this);
     }
 
@@ -40,7 +40,7 @@ public class TweenActivity extends AppCompatActivity implements View.OnClickList
                 Animation animation1 = AnimationUtils.loadAnimation(this,R.anim.view_scale);
                 imageView.startAnimation(animation1);
                 break;
-            case R.id.btn_rotate:
+            case R.id.btn_obj:
                 Animation animation2 = AnimationUtils.loadAnimation(this,R.anim.view_rotate);
                 imageView.startAnimation(animation2);
                 break;
