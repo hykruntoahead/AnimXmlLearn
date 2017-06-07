@@ -24,7 +24,7 @@ public class PropertyUse1Activity extends AppCompatActivity {
         setContentView(R.layout.activity_property_use1);
         mImageView = (ImageView) findViewById(R.id.img_beauty);
 
-        findViewById(R.id.btn_obj).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn_rotate).setOnClickListener(new View.OnClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
             @Override
             public void onClick(View v) {

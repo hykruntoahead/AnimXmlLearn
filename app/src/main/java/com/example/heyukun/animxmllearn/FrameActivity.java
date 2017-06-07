@@ -20,7 +20,7 @@ public class FrameActivity extends AppCompatActivity {
         //获取AnimationDrawable实例
         mAnimationDrawable= (AnimationDrawable) mImageView.getBackground();
         //点击开始按钮
-        findViewById(R.id.btn_obj).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn_rotate).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (mAnimationDrawable != null) {
