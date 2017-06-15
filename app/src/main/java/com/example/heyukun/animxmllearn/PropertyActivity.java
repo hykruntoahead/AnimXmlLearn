@@ -19,7 +19,9 @@ public class PropertyActivity extends AppCompatActivity implements View.OnClickL
         setContentView(R.layout.activity_property);
         findViewById(R.id.btn_pro_1).setOnClickListener(this);
         findViewById(R.id.btn_pro_2).setOnClickListener(this);
-
+        findViewById(R.id.btn_pro_3).setOnClickListener(this);
+        findViewById(R.id.btn_pro_4).setOnClickListener(this);
+        findViewById(R.id.btn_pro_5).setOnClickListener(this);
     }
 
     @Override
@@ -30,6 +32,15 @@ public class PropertyActivity extends AppCompatActivity implements View.OnClickL
                 break;
             case R.id.btn_pro_2:
                 startActivity(new Intent(this,PropertyUse2Activity.class));
+                break;
+            case R.id.btn_pro_3:
+                startActivity(new Intent(this,PropertyValueActivity.class));
+                break;
+            case R.id.btn_pro_4:
+                startActivity(new Intent(this,PropertyInterTypeActivity.class));
+                break;
+            case R.id.btn_pro_5:
+                startActivity(new Intent(this,PropertyInterpolatorActivity.class));
                 break;
         }
     }

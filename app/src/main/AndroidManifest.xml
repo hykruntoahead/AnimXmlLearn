@@ -25,6 +25,9 @@
         <activity android:name=".PropertyActivity"/>
         <activity android:name=".PropertyUse1Activity"/>
         <activity android:name=".PropertyUse2Activity"/>
+        <activity android:name=".PropertyValueActivity"/>
+        <activity android:name=".PropertyInterTypeActivity"/>
+        <activity android:name=".PropertyInterpolatorActivity"/>
     </application>
 
 </manifest>

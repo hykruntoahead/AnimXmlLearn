@@ -24,6 +24,23 @@
     <string name="one_value_no_get">变换1</string>
     <string name="btn_obj_3">变换3</string>
     <string name="btn_pro_2">变换2</string>
+    <string name="value_anim">value动画</string>
+    <string name="value_width">宽度改变</string>
+    <string name="translate_linear">线性平移</string>
+    <string name="translate_acc">加速平移</string>
+    <string name="color_int">背景色-1</string>
+    <string name="color_argb">背景色-2</string>
+    <string name="inter_type_anim">插值估值器</string>
+    <string name="interpolator">插值器</string>
+    <string name="pro_inter_acc">Accelerate</string>
+    <string name="pro_inter_acc_dec">AccelerateDecelerate</string>
+    <string name="pro_inter_ant">anticipate</string>
+    <string name="pro_inter_ant_over">AniticipateOvershoot</string>
+    <string name="pro_inter_bounce">Bounce</string>
+    <string name="pro_inter_cycle">cycle</string>
+    <string name="pro_inter_dec">Decelerate</string>
+    <string name="pro_inter_linear">Linear</string>
+    <string name="pro_inter_over">Overshoot</string>
 
 
 </resources>
